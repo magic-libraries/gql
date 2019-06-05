@@ -1,5 +1,5 @@
 import { is, tryCatch } from '@magic/test'
-import { gql } from '../src/index.mjs'
+import gql from '../src/index.mjs'
 
 const query = `
 query getHuman($id: Int = 3) {
