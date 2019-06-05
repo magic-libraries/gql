@@ -13,6 +13,7 @@
     "format": "f -w --exclude docs",
     "test": "t --exclude docsrc docs config.js",
     "build": "NODE_ENV=production magic build",
+    "devbuild": "magic build --watch src",
     "prod": "NODE_ENV=production magic build serve --watch src",
     "dev": "magic dev --watch src",
     "coveralls": "coveralls"
