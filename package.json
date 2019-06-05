@@ -1,0 +1,53 @@
+{
+  "name": "@magic-libraries/gql",
+  "version": "0.0.1",
+  "author": "Wizards & Witches",
+  "license": "AGPL-3.0",
+  "description": "@magic-libraries/gql turn graphql queries into json.",
+  "homepage": "https://magic-libraries.github.io/gql/",
+  "engines": {
+    "node": ">=12.2.0"
+  },
+  "scripts": {
+    "start": "t -p",
+    "format": "f -w --exclude docs",
+    "test": "t --exclude docsrc docs config.js",
+    "build": "NODE_ENV=production magic build",
+    "prod": "NODE_ENV=production magic build serve --watch src",
+    "dev": "magic dev --watch src",
+    "coveralls": "coveralls"
+  },
+  "main": "src/index.mjs",
+  "module": "src/index.mjs",
+  "type": "module",
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magic-libraries/gql.git"
+  },
+  "bugs": {
+    "url": "https://github.com/magic-libraries/gql/issues"
+  },
+  "devDependencies": {
+    "@magic-modules/git-badges": "github:magic-modules/git-badges",
+    "@magic-modules/light-switch": "github:magic-modules/light-switch",
+    "@magic-modules/pre": "github:magic-modules/pre",
+    "@magic-themes/docs": "github:magic-themes/docs",
+    "@magic/core": "github:magic/core",
+    "@magic/test": "0.1.9"
+  },
+  "keywords": [
+    "magic",
+    "client",
+    "gql",
+    "graphql"
+  ],
+  "contributors": [
+    {
+      "name": "jascha ehrenreich",
+      "github": "jaeh"
+    }
+  ]
+}
