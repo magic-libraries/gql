@@ -16,24 +16,30 @@ export const View = state => [
   p('in a page/component, just use the lib.gql functions'),
 
   Pre(`
-lib.gql(\`
+const query = lib.gql\`
 query getHuman($id: Int = 3) {
   human(id: $id) {
     name
     height
   }
-}\`)`),
+}
+\`
 
-  p('returns'),
-  Pre(
-    lib.gql(`
-query getHuman($id: Int = 3) {
-  human(id: $id) {
-    name
-    height
-  }
-}`)(1),
-  ),
+const jsonString = query(1)
+`),
+
+  p('jsonString now is valid json:'),
+  Pre(`
+{
+  'query': \`query getHuman($id: Int = 3) {
+    human(id: $id) {
+      name
+      height
+    }
+  }\`,
+  'variables':'1',
+  'operationName':'getHuman'
+}`),
 
   h3({ id: 'source' }, 'source'),
   p([

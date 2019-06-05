@@ -36,12 +36,14 @@ npm install --save-exact magic-libraries/gql
 in a page/component, just use the lib.gql function'),
 
 ```javascript
-lib.gql(`query getHuman($id: Int) {
+const query = lib.gql(`query getHuman($id: Int) {
   human(id: $id) {
     name
     height
   }
-}`)(1)
+}`)
+
+const result = query(1)
 
 // returns valid json with the following structure:
 {
