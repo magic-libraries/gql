@@ -25,7 +25,7 @@ query getHuman($id: Int = 3) {
 }
 \`
 
-const jsonString = query(1)
+const jsonString = query({ id: 1 })
 `),
 
   p('jsonString now is valid json:'),
@@ -37,7 +37,7 @@ const jsonString = query(1)
       height
     }
   }\`,
-  'variables':'1',
+  'variables': { id: '1' },
   'operationName':'getHuman'
 }`),
 
