@@ -16,7 +16,7 @@
     "devbuild": "magic build --watch src",
     "prod": "NODE_ENV=production magic build serve --watch src",
     "dev": "magic dev --watch src",
-    "coveralls": "coveralls"
+    "calls": "calls"
   },
   "main": "src/index.mjs",
   "module": "src/index.mjs",
