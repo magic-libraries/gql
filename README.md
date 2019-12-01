@@ -13,8 +13,8 @@ graphql client library for [@magic](https://magic.github.io/core)
 
 [npm-image]: https://img.shields.io/npm/v/@magic-libraries/gql.svg
 [npm-url]: https://www.npmjs.com/package/@magic-libraries/gql
-[travis-image]: https://api.travis-ci.org/magic-libraries/gql.svg?branch=master
-[travis-url]: https://travis-ci.org/magic-libraries/gql
+[travis-image]: https://img.shields.io/travis/com/magic-libraries/gql/master
+[travis-url]: https://travis-ci.com/magic-libraries/gql
 [appveyor-image]: https://img.shields.io/appveyor/ci/magiclibraries/gql/master.svg
 [appveyor-url]: https://ci.appveyor.com/project/magiclibraries/gql/branch/master
 [coveralls-image]: https://coveralls.io/repos/github/magic-libraries/gql/badge.svg
