@@ -10,7 +10,7 @@ export const View = state => [
   GitBadges('magic-libraries/gql'),
 
   h3({ id: 'installation' }, 'installation'),
-  Pre('npm install --save-exact magic-libraries/gql'),
+  Pre('npm install --save-exact @magic-libraries/gql'),
 
   h3({ id: 'usage' }, 'usage'),
   p('in a page/component, just use the lib.gql functions'),
