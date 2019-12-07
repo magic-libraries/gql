@@ -29,7 +29,7 @@ graphql client library for [@magic](https://magic.github.io/core)
 
 #### <a name="install"></a>installation
 ```bash
-npm install --save-exact magic-libraries/gql
+npm install --save-exact @magic-libraries/gql
 ```
 
 #### <a name="usage"></a>usage
