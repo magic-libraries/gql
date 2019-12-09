@@ -43,8 +43,11 @@
   "keywords": [
     "magic",
     "client",
+    "library",
+    "magic-libraries",
     "gql",
-    "graphql"
+    "graphql",
+    "hyperapp"
   ],
   "contributors": [
     {
