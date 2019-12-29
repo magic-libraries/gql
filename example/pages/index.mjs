@@ -45,7 +45,7 @@ const jsonString = query({ id: 1 })
   p([
     'the source for this page is in the ',
     Link(
-      { to: 'https://github.com/magic-libraries/json/tree/master/example' },
+      { to: 'https://github.com/magic-libraries/gql/tree/master/example' },
       'example directory',
     ),
     ' and gets built and published to github using ',
