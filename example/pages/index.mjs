@@ -44,10 +44,7 @@ const jsonString = query({ id: 1 })
   h3({ id: 'source' }, 'source'),
   p([
     'the source for this page is in the ',
-    Link(
-      { to: 'https://github.com/magic-libraries/gql/tree/master/example' },
-      'example directory',
-    ),
+    Link({ to: 'https://github.com/magic-libraries/gql/tree/master/example' }, 'example directory'),
     ' and gets built and published to github using ',
     Link({ to: 'https://github.com/magic/core' }, '@magic/core'),
   ]),
