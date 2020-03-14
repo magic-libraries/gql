@@ -4,7 +4,7 @@
 
 ${state.description}
 
-<GitBadges>magic-libraries/gql</GitBadges>
+<GitBadges>@magic-libraries/gql</GitBadges>
 
 ### installation
 
