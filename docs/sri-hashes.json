@@ -6,8 +6,7 @@
     "/gql/404/": "sha384-U7Z2EokCmEkssTaU32lkBYIBYWlJelay1dxt87Qo476WZSwEug2ceJfY1VkZ5k/I"
   },
   "static": {
-    "/favicon.ico": "sha384-pf51ay6pZCj3+XlVCPmCKLDFpLj7QP+2heR+/n08WgS7Bve7JMkgubHOkwLzaTr+",
     "/robots.txt": "sha384-CAvZWfNkckgch71N3XcgNxOus81EwmBLlN5fbZLPdpfnQ4szSPZ2bZik1BzHj8nY",
-    "/sitemap.xml": "sha384-n0bEQ5YebZs1TImCFMLNEROQADXWRrahtNasAVzF+tyH/GaYEf8ijD8y8Fpn+e+e"
+    "/sitemap.xml": "sha384-c2Um8/Mo459astq/Pbv6tQ/mS1FtcyljEkNmN2zbuXFJDbbHGMD+KEcw7CwR7ziv"
   }
 }
