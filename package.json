@@ -6,7 +6,7 @@
   "description": "@magic-libraries/gql turn graphql queries into json.",
   "homepage": "https://magic-libraries.github.io/gql/",
   "engines": {
-    "node": ">=13.5.0"
+    "node": ">=14.2.0"
   },
   "engineStrict": true,
   "scripts": {
