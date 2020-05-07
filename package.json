@@ -1,6 +1,6 @@
 {
   "name": "@magic-libraries/gql",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Wizards & Witches",
   "license": "AGPL-3.0",
   "description": "@magic-libraries/gql turn graphql queries into json.",
