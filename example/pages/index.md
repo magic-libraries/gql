@@ -1,6 +1,6 @@
 # ${state.title}
 
-[@magic](https://magic.github.io/core)-client gql library.
+[@magic](https://magic.github.io/core/)-client gql library.
 
 ${state.description}
 
