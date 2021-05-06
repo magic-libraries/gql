@@ -5,7 +5,6 @@
   "license": "AGPL-3.0",
   "description": "@magic-libraries/gql turn graphql queries into json.",
   "homepage": "https://magic-libraries.github.io/gql/",
-  "type": "module",
   "engines": {
     "node": ">=14.2.0"
   },
