@@ -24,15 +24,17 @@ graphql client library for [@magic](https://magic.github.io/core)
 [snyk-image]: https://snyk.io/test/github/magic-libraries/gql/badge.svg
 [snyk-url]: https://snyk.io/test/github/magic-libraries/gql
 
-* [installation](#install)
-* [usage](#usage)
+- [installation](#install)
+- [usage](#usage)
 
 #### <a name="install"></a>installation
+
 ```bash
 npm install --save-exact @magic-libraries/gql
 ```
 
 #### <a name="usage"></a>usage
+
 in a page/component, just use the lib.gql function'),
 
 ```javascript
@@ -59,21 +61,27 @@ const result = query(1)
 ```
 
 #### caveat
+
 this library will throw an error if invalid values get passed in.
 
 ##### 0.0.1
+
 first release
 
 ##### 0.0.2
+
 require node 13.5.0
 
 ##### 0.0.3
+
 bump required node version
 
 ##### 0.0.4
+
 bump required node version to 14.15.4
 
 ##### 0.0.5
+
 update dependencies
 
 ##### 0.0.6
@@ -81,4 +89,5 @@ update dependencies
 update dependencies
 
 ##### 0.0.7 - unreleased
+
 ...

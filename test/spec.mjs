@@ -70,7 +70,7 @@ export default [
     info: 'should create a query',
     fn: () => {
       const query = gql`
-        query($number_of_repos: Int!) {
+        query ($number_of_repos: Int!) {
           viewer {
             name
             repositories(last: $number_of_repos) {
